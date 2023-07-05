@@ -5,11 +5,15 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'hero-pattern': "url('./images/layer-base.png')",
+      },
       colors: {
-        'white': '#F3EFF5',
-        'purple': '#DFDAFF',
+        'white': '#FDF9AE',
+        'purple': '#0D1417',
       },
     }
+    
   },
   plugins: [],
 }

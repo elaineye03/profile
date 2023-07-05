@@ -3,8 +3,10 @@
 export default function Home(){
     return (
         <>
-           
-            <h1>Homepage</h1>
+            <div class = "bg-cover bg-center min-h-screen bg-hero-pattern ">
+                <h1>Homepage</h1>
+            </div>
+            
         </>
         
     )
