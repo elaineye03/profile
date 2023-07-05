@@ -15,18 +15,18 @@ export default function Header() {
 
             <div className="flex justify-between items-center px-4 py-2">
                 <div className="grid gap-4 md:place-self-center md:justify-self-end">
-                    <a className="text-yellow-500 text-1xl hover:text-white hidden md:flex" href = "/">Elaine Ye</a>
+                    <a className="navbar-footer text-1xl hover:text-white hidden md:flex" href = "/">Elaine Ye</a>
                 </div>
                 <div className="grid grid-cols-2 gap-6">
-                    <a className="text-yellow-500 text-1xl hover:text-white  hidden md:flex" href="/#about">About</a>
-                    <a className="text-yellow-500 text-1xl hover:text-white  hidden md:flex" href = "/devlog">Devlog</a>
+                    <a className="navbar-footer hover:text-white  hidden md:flex" href="/#about">About</a>
+                    <a className="navbar-footer text-1xl hover:text-white  hidden md:flex" href = "/devlog">Devlog</a>
                 </div>
             </div>
 
             <div class="md:hidden mobile-menu p-4 bg-base-100 bg-purple grid grid-rows-3 ">
-                <a className="text-yellow-500 text-1xl text-left hover:text-white" href="App.js">home</a>
-                <a className="text-yellow-500 text-1xl text-left hover:text-white" href="#about">about</a>
-                <a className="text-yellow-500 text-1xl text-left hover:text-white" href="App.js">dev log</a>
+                <a className="navbar-footer text-1xl text-left hover:text-white" href="App.js">home</a>
+                <a className=" navbar-footer text-1xl text-left hover:text-white" href="#about">about</a>
+                <a className="navbar-footer text-1xl text-left hover:text-white" href="App.js">dev log</a>
             </div>
             
             

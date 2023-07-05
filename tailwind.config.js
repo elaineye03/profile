@@ -10,6 +10,7 @@ module.exports = {
         'hero-front': "url('./images/layer-front.png')",
         'hero-middle': "url('./images/layer-middle.png')",
         'cave-pattern': "url('./images/cave.jpg')",
+        'devlog-pattern': "url('./images/devlog-base.jpg')",
       },
       colors: {
         'white': '#FDF9AE',

@@ -17,21 +17,22 @@ export default function Home() {
             <article class="main-article flex  bg-cave-pattern">
                 <div id= "about" class="main-article__content">
                 <div class="absolute top-20 right-10">
-                        <h1 class="main-article__header text-white text-4xl font-bold text-right">about</h1>
-                        <p class="text-white text-2xl py-6 text-right">3rd year Computer Science major at Rice University <br></br>
+                    
+                        <h1 class="main-article__header  text-white font-bold text-right">about</h1>
+                        <p class="main-article__paragraph text-right">3rd year Computer Science major at Rice University <br></br>
                             Passionate about app development and program design</p>
                     </div>
 
                     <div class="h-screen flex flex-col 
                     items-center justify-center">
-                        <h1 class="main-article__header  text-left text-white text-4xl font-bold ">currently</h1>
-                        <p class="text-white text-2xl py-6 text-left ">UI Engineer Intern @Xactly<br></br>Developer @WeThePixies</p>
+                        <h1 class="main-article__header  text-white font-bold text-left">currently</h1>
+                        <p class="main-article__paragraph text-left ">UI Engineer Intern @Xactly<br></br>Developer @WeThePixies</p>
                     </div>
                     <div class="absolute bottom-10 left-10">
-                        <h1 class="main-article__header  text-white text-4xl font-bold text-left">previously</h1>
-                        <p class="text-white text-2xl  py-6 text-left">Developer @RiceApps<br></br>
+                        <div class="main-article__header  text-white  font-bold text-left">previously</div>
+                        <div class="main-article__paragraph text-left">Developer @RiceApps<br></br>
                             Computational Biology Researcher @TreangenLab<br></br>
-                            Co-President @Lynbrook High WiSTEM club</p>
+                            Co-President @Lynbrook High WiSTEM club</div>
                     </div>
                 </div>
             </article>
