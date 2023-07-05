@@ -1,8 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
 import Router from './components/Router'
-export default function App() {
+import { useEffect } from 'react';
 
+export default function App() {
   
   return (
     <>
@@ -10,4 +11,13 @@ export default function App() {
     </>
   );
 }
+
+// function scroll() {
+//   window.addEventListener('scroll', e=> {
+//   document.body.style.cssText=`--scrollTop: ${this.scroll}`
+// })
+// }
+
+
+
 
