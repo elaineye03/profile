@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import "./Modal.css";
+import "../index.css";
 
-export default function Modal() {
+export default function Modal(props) {
   const [modal, setModal] = useState(false);
 
   const toggleModal = () => {
@@ -16,25 +17,28 @@ export default function Modal() {
 
   return (
     <>
-      <button onClick={toggleModal} className="navbar-footer btn-modal relative px-7 py-4 bg-purple rounded-lg leading-none flex items-center">
-        Open
-      </button>
+      <div class="relative group">
+      <button onClick={toggleModal} className="navbar-footer btn-modal px-7 py-4 bg-purple rounded-lg ">
+          <h2>{props.date}</h2>
+        </button>
+        <div class="absolute -inset-0.5 bg-gradient-to-r h-10 w-10 leading-none justify-center items-center from-yellow-600 to-purple-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt">
+          
+        </div>
+        
+
+      </div>
+      
 
       {modal && (
-        <div className="modal">
+        <div className="modal width-72 ">
           <div onClick={toggleModal} className="overlay"></div>
-          <div className="modal-content">
-            <h2>Hello Modal</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
-              perferendis suscipit officia recusandae, eveniet quaerat assumenda
-              id fugit, dignissimos maxime non natus placeat illo iusto!
-              Sapiente dolorum id maiores dolores? Illum pariatur possimus
-              quaerat ipsum quos molestiae rem aspernatur dicta tenetur. Sunt
-              placeat tempora vitae enim incidunt porro fuga ea.
-            </p>
-            <button className="close-modal" onClick={toggleModal}>
-              CLOSE
+          <div className="modal-content h-72 modal-article">
+              <h1 className = "main-article__header text-white font-bold">{props.date}</h1>
+              <p className = "main-article__paragraph">
+                {props.description}
+              </p>
+            <button className="close-modal navbar-footer hover:text-white font-bold" onClick={toggleModal}>
+              X
             </button>
           </div>
         </div>

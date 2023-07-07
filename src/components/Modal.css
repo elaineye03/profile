@@ -1,15 +1,21 @@
+
 body.active-modal {
     overflow-y: hidden;
 }
 
 .btn-modal {
     padding: 10px 20px;
-    display: block;
+    /* z-index: 20; */
+    /* display: block;
     margin: 100px auto 0;
-    font-size: 18px;
+    font-size: 18px; */ 
 }
 
-.modal{
+.glow-for-button {
+    z-index: 100;
+}
+
+.modal {
     width: 100vw;
     height: 100vh;
     top: 0;
@@ -28,8 +34,11 @@ body.active-modal {
     right: 0;
     bottom: 0;
     position: fixed;
+    
+}
+
+.overlay {
     background: rgba(49,49,49,0.8);
-    z-index:90;
 }
 .modal-content {
     position: absolute;
@@ -37,12 +46,13 @@ body.active-modal {
     left: 50%;
     transform: translate(-50%, -50%);
     line-height: 1.4;
-    background: #f1f1f1;
-    padding: 14px 28px;
+    background: #0D1417;
+    padding: 14px 28px 14px 14px;
     border-radius: 3px;
     max-width: 600px;
     min-width: 300px;
-    z-index: 100;
+    overflow: scroll;
+   
 }
 
 .close-modal {
@@ -51,3 +61,63 @@ body.active-modal {
     right: 10px;
     padding: 5px 7px;
 }
+
+.modal-article {
+    font-family: raleway_f, sans-serif;
+    will-change: transform;
+	font-weight: 100;
+	text-shadow: 0 0 15px #9d822b;
+	/* Update: */
+	z-index: 0;
+}
+
+/* body.active-modal {
+    overflow-y: hidden;
+}
+
+.btn-modal {
+    padding: 10px 20px;
+    display: block;
+    margin: 100px auto 0;
+    font-size: 18px;
+}
+
+.modal{
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed; 
+    z-index: 100;
+}
+
+.overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    background: rgba(49,49,49,0.8);
+    z-index:90;
+}
+.modal-content {
+    position: relative;
+    line-height: 1.4;
+    background: #0D1417;
+    padding: 14px 14px;
+    border-radius: 3px;
+    max-width: 500px;
+    z-index: 100;
+    overflow: scroll;
+}
+
+.close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 7px;
+} */
