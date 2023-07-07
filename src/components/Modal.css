@@ -7,7 +7,6 @@ body.active-modal {
     padding: 10px 20px;
     z-index: 20;
     position: absolute;
-    justify-content: center;
     transform: translate(50%, 50%);
     /* display: block;
     margin: 100px auto 0;
