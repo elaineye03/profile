@@ -10,7 +10,7 @@ export default function Devlog() {
                 
                 
             </div>
-            <div class="absolute left-20 right-20 bottom-20 top-72 grid gap-20 md:grid-cols-4 sm:grid-cols-2 overflow-auto">
+            <div class="absolute left-20 right-20 bottom-20 top-72 grid gap-20 md:grid-cols-4 sm:grid-cols-1 overflow-auto">
                     <Modal date='4.3.2' description='this is fucking woieoiwefioew' />
                     <Modal date='4.3.2' description='Text Text' />
                     <Modal date='4.3.2' description='Text Text' />
