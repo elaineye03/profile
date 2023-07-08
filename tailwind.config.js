@@ -14,7 +14,7 @@ module.exports = {
       },
       colors: {
         'white': '#FDF9AE',
-        'purple': '#0D1417',  //tis actually more of a dark navy but I'm too lazy to change the name everywhere
+        'purple': '#0D1417',  //tis actually more of a dark navy but I'm too lazy to change the name everywhere -- future task: make components more cohesive by abstraction so don't need to change everywhere
       },
     }
 
