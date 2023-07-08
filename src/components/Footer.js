@@ -7,7 +7,7 @@ export default function Footer() {
                 </div>
                 <div class="grid grid-flow-col grid-cols-2 gap-4">
                     <a class="navbar-footer text-yellow-500 text-1xl hover:text-white font-bold" href="mailto:ey9@rice.edu">Email</a>
-                    <a class="navbar-footer text-yellow-500 text-1xl hover:text-white font-bold" href="https://www.linkedin.com/in/elaine-ye-11333a181/">LinkedIn</a>
+                    <a class="navbar-footer text-yellow-500 text-1xl hover:text-white font-bold" href="https://www.linkedin.com/in/elaine-ye-11333a181/" target="_blank">LinkedIn</a>
                 </div>
             </div>
 
