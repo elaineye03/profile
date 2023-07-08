@@ -14,11 +14,10 @@ module.exports = {
       },
       colors: {
         'white': '#FDF9AE',
-        'purple': '#0D1417',
-        'red': '#6C111D',
+        'purple': '#0D1417',  //tis actually more of a dark navy but I'm too lazy to change the name everywhere
       },
     }
-    
+
   },
   plugins: [],
 }
