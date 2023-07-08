@@ -19,7 +19,7 @@ export default function Modal(props) {
     <>
       <div class="relative group main-article__content">
       <button onClick={toggleModal} className="navbar-footer btn-modal px-9 py-4 bg-purple rounded-lg ">
-          <h2>{props.date}</h2>
+          <h2 >{props.date}</h2>
         </button>
         <div class="glow-for-button absolute -inset-0.5 bg-gradient-to-r h-12 w-28 from-yellow-600 to-cyan-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt">
           
@@ -34,8 +34,7 @@ export default function Modal(props) {
           <div onClick={toggleModal} className="overlay"></div>
           <div className="modal-content h-96 modal-article">
               <h1 className = "main-article__header text-white font-bold">{props.date}</h1>
-              <p className = "main-article__paragraph">
-                {props.description}
+              <p dangerouslySetInnerHTML={{ __html: props.description}}className = "main-article__paragraph">
               </p>
             <button className="close-modal navbar-footer hover:text-white font-bold" onClick={toggleModal}>
               X
