@@ -1,3 +1,5 @@
+Made with ❤️ with React.js, HTML, TailWindCSS, JavaScript, and Supabase
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
