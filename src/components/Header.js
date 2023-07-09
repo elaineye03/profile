@@ -23,9 +23,9 @@ export default function Header() {
             </div>
 
             <div class="md:hidden mobile-menu p-4 bg-base-100 bg-purple grid grid-rows-3 ">
-                <a className="navbar-footer text-1xl text-left hover:text-white" href="/">home</a>
-                <a className=" navbar-footer text-1xl text-left hover:text-white" href="#about">about</a>
-                <a className="navbar-footer text-1xl text-left hover:text-white" href="/devlog">dev log</a>
+                <a className="navbar-footer text-1xl text-left hover:text-white" href="/">Home</a>
+                <a className=" navbar-footer text-1xl text-left hover:text-white" href="/#about">About</a>
+                <a className="navbar-footer text-1xl text-left hover:text-white" href="/devlog">Devlog</a>
             </div>
         </nav>
 
