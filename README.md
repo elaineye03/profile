@@ -1,4 +1,5 @@
-Made with ❤️ with React.js, HTML, TailWindCSS, JavaScript, and Supabase. Hosted on Vercel.
+Made with ❤️ with React.js, HTML, TailWindCSS, JavaScript, and Supabase. 
+Hosted on Vercel, secured by Cloudflare, domain from NameSilo.
 
 # Getting Started with Create React App
 
