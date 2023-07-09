@@ -1,5 +1,5 @@
 Made with ❤️ with React.js, HTML, TailWindCSS, JavaScript, and Supabase. 
-Hosted on Vercel.
+Hosted on Vercel and secured by Cloudflare, domain managed by NameSilo.
 
 # Getting Started with Create React App
 
