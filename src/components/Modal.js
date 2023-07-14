@@ -14,7 +14,7 @@ export default function Modal(props) {
   } else {
     document.body.classList.remove('active-modal')
   }
-
+  let description = props.description.replace(new RegExp('\r?\n','g'), '<br />');
   return (
     <>
       <div class="relative group main-article__content">
@@ -30,7 +30,7 @@ export default function Modal(props) {
           <div onClick={toggleModal} className="overlay"></div>
           <div className="modal-content h-96 modal-article">
             <h1 className="main-article__header text-white font-bold">{props.date}</h1>
-            <p dangerouslySetInnerHTML={{ __html: props.description }} className="main-article__paragraph">
+            <p dangerouslySetInnerHTML={{ __html: description }} className="main-article__paragraph">
             </p>
             <button className="close-modal navbar-footer hover:text-white font-bold" onClick={toggleModal}>
               X
