@@ -24,6 +24,7 @@ export default function Devlog() {
             }
         }
         fetchDevlog()
+        
 
     }, [devlog])
 
@@ -36,10 +37,13 @@ export default function Devlog() {
                 </div>
             </div>
             <div class="absolute left-20 right-20 bottom-20 top-72 grid flex flex-col items-center gap-20 lg:grid-cols-4 sm:grid-cols-2 overflow-auto">
-                {fetchError && (<p>{fetchError}</p>)}
-                {devlog && devlog.map(devlog => (
-                    <Modal date={devlog.name} description={devlog.description} />
-                ))}
+                    {fetchError && (<p>{fetchError}</p>)}
+                    {devlog && devlog.sort((a,b) => a.name > b.name ? 1:-1)
+                    .reverse()
+                    .map(devlog => (
+                        <Modal date={devlog.name} description={devlog.description} />
+                    ))}
+                
             </div>
 
         </div>
