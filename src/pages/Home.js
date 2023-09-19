@@ -19,7 +19,7 @@ export default function Home() {
 
                         <h1 class="main-article__header  text-white font-bold text-right">about</h1>
                         <p class="main-article__paragraph text-right">3rd year Computer Science major at Rice University <br></br>
-                            Passionate about app development and program design</p>
+                            Passionate about Security and UX</p>
                     </div>
 
                     <div class="h-screen flex flex-col 
